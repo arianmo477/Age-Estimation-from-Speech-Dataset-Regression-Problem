@@ -1,0 +1,26 @@
+name: age-estimation-speech
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+
+  # core
+  - numpy
+  - pandas
+  - matplotlib
+
+  # machine learning
+  - scikit-learn
+
+  # audio processing
+  - librosa
+
+  # useful extras (recommended)
+  - jupyterlab
+  - ipykernel
+  - seaborn
+
+  # pip (optional)
+  - pip
